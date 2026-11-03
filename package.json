@@ -1,0 +1,17 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"private": true,
+	"type": "module",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^12.17",
+			"onFail": "error"
+		},
+		"runtime": {
+			"name": "node",
+			"version": "^22.11 || ^24.11 || ^26.13",
+			"onFail": "error"
+		}
+	}
+}
