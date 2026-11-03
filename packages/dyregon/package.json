@@ -1,0 +1,40 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"name": "dyregon",
+	"version": "0.0.0",
+	"description": "Fast full-stack web framework",
+	"keywords": [
+		"fast",
+		"framework",
+		"full",
+		"full-stack",
+		"stack",
+		"web",
+		"web framework"
+	],
+	"homepage": "https://github.com/dyregon/dyregon/tree/master/packages/dyregon#readme",
+	"bugs": {
+		"url": "https://github.com/dyregon/dyregon/issues"
+	},
+	"license": "MIT",
+	"author": "Hunar Roop Kahlon <hunarroopcodes@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dyregon/dyregon.git",
+		"directory": "packages/dyregon"
+	},
+	"files": [
+		"./LICENSE",
+		"./README.md",
+		"./package.json"
+	],
+	"sideEffects": false,
+	"exports": {
+		"./LICENSE": "./LICENSE",
+		"./package.json": "./package.json"
+	},
+	"engines": {
+		"node": "^22.11 || ^24.11 || ^26.13"
+	},
+	"engineStrict": true
+}
