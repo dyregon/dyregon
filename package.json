@@ -2,6 +2,9 @@
 	"$schema": "https://www.schemastore.org/package",
 	"private": true,
 	"type": "module",
+	"devDependencies": {
+		"oxfmt": "catalog:"
+	},
 	"devEngines": {
 		"packageManager": {
 			"name": "pnpm",
