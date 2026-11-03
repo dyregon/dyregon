@@ -7,7 +7,8 @@
 		"fmt:check": "oxfmt --check"
 	},
 	"devDependencies": {
-		"oxfmt": "catalog:"
+		"oxfmt": "catalog:",
+		"typescript": "catalog:"
 	},
 	"devEngines": {
 		"packageManager": {
