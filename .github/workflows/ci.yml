@@ -11,6 +11,15 @@ jobs:
         uses: pnpm/setup@v3
       - name: run `pnpm run fmt:check`
         run: pnpm run fmt:check
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v7
+      - name: setup pnpm
+        uses: pnpm/setup@v3
+      - name: run `pnpm run ts:check`
+        run: pnpm run ts:check
 name: ci
 on:
   merge_group:

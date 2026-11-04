@@ -4,7 +4,9 @@
 	"type": "module",
 	"scripts": {
 		"fmt": "oxfmt",
-		"fmt:check": "oxfmt --check"
+		"fmt:check": "oxfmt --check",
+		"ts:check": "tsc --noEmit",
+		"ts:emit": "tsc --build"
 	},
 	"devDependencies": {
 		"oxfmt": "catalog:",
