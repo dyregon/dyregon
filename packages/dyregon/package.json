@@ -33,6 +33,9 @@
 		"./LICENSE": "./LICENSE",
 		"./package.json": "./package.json"
 	},
+	"devDependencies": {
+		"typescript": "catalog:"
+	},
 	"engines": {
 		"node": "^22.11 || ^24.11 || ^26.13"
 	},
