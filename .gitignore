@@ -1,2 +1,5 @@
 # javascript
 node_modules
+
+# typescript
+*.tsbuildinfo
