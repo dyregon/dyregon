@@ -33,6 +33,9 @@
 		"./LICENSE": "./LICENSE",
 		"./package.json": "./package.json"
 	},
+	"scripts": {
+		"ts:check": "tsc --noEmit"
+	},
 	"devDependencies": {
 		"typescript": "catalog:"
 	},
