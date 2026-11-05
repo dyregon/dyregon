@@ -34,7 +34,8 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"ts:check": "tsc --noEmit"
+		"ts:check": "tsc --noEmit",
+		"ts:emit": "tsc --build"
 	},
 	"devDependencies": {
 		"typescript": "catalog:"
