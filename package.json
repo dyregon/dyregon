@@ -11,6 +11,7 @@
 	"devDependencies": {
 		"oxfmt": "catalog:",
 		"oxlint": "catalog:",
+		"oxlint-tsgolint": "catalog:",
 		"typescript": "catalog:"
 	},
 	"devEngines": {
