@@ -170,6 +170,9 @@ catalogs:
     oxlint:
       specifier: ^1.90.0
       version: 1.90.0
+    oxlint-tsgolint:
+      specifier: ^7.0.2005
+      version: 7.0.2005
     typescript:
       specifier: ^7.0.2
       version: 7.0.2
@@ -184,6 +187,9 @@ importers:
       oxlint:
         specifier: 'catalog:'
         version: 1.90.0(oxlint-tsgolint@7.0.2005)
+      oxlint-tsgolint:
+        specifier: 'catalog:'
+        version: 7.0.2005
       typescript:
         specifier: 'catalog:'
         version: 7.0.2
@@ -858,7 +864,6 @@ snapshots:
       '@oxlint-tsgolint/linux-x64': 7.0.2005
       '@oxlint-tsgolint/win32-arm64': 7.0.2005
       '@oxlint-tsgolint/win32-x64': 7.0.2005
-    optional: true
 
   oxlint@1.90.0(oxlint-tsgolint@7.0.2005):
     optionalDependencies:
