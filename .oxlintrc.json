@@ -1,0 +1,33 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"categories": {
+		"correctness": "error",
+		"pedantic": "error",
+		"perf": "error",
+		"style": "error",
+		"suspicious": "error"
+	},
+	"env": {
+		"browser": true,
+		"es2024": true,
+		"node": true,
+		"serviceworker": true,
+		"worker": true
+	},
+	"options": {
+		"reportUnusedDisableDirectives": "error",
+		"typeAware": true,
+		"typeCheck": true
+	},
+	"plugins": [
+		"eslint",
+		"import",
+		"jsdoc",
+		"jsx-a11y",
+		"oxc",
+		"node",
+		"promise",
+		"typescript",
+		"unicorn"
+	]
+}
