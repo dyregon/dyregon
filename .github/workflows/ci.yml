@@ -11,6 +11,15 @@ jobs:
         uses: pnpm/setup@v3
       - name: run `pnpm run fmt:check`
         run: pnpm run fmt:check
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v7
+      - name: setup pnpm
+        uses: pnpm/setup@v3
+      - name: run `pnpm run lint`
+        run: pnpm run lint
   typecheck:
     runs-on: ubuntu-latest
     steps:
