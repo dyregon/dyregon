@@ -5,6 +5,7 @@
 	"scripts": {
 		"fmt": "oxfmt",
 		"fmt:check": "oxfmt --check",
+		"lint": "oxlint",
 		"ts:check": "tsc --noEmit",
 		"ts:emit": "tsc --build"
 	},
